@@ -1,19 +1,28 @@
 import React from 'react'
-import { Avatar } from '@nextui-org/react';
+import { Avatar, Button } from '@nextui-org/react';
+import { MdDashboard, MdLibraryAdd } from 'react-icons/md';    
+import { BsCartFill } from 'react-icons/bs'; 
+import { FaEdit } from 'react-icons/fa'; 
+import { IoIosNotifications } from 'react-icons/io';  
+import { TbDeviceAnalytics } from 'react-icons/tb';
 
 const Sidebar = () => {
   return (
     <div className='sidebar-parent-component'>
         <div className='justify-center'>
-            <Avatar
-            src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-            style={{height: "100px", width: "100px"}}
-            bordered
-            zoomed
-            />
+          <h2><TbDeviceAnalytics /></h2>
         </div>
         <div className='justify-center'>
-          <h6 className='head-style'>Shahanas Bridal Jwelers</h6>
+          <h2><MdLibraryAdd /></h2>
+        </div>
+        <div className='justify-center'>
+          <h2><BsCartFill /></h2>
+        </div>
+        <div className='justify-center'>
+          <h2><FaEdit /></h2>
+        </div>
+        <div className='justify-center'>
+          <h2><IoIosNotifications /></h2>
         </div>
     </div>
   )

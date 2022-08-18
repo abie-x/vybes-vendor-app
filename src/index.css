@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-body {
+/* body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -31,10 +31,13 @@ body {
 
 .sidebar-parent-component {
   height: 100vh;
-  width: 15%;
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: black;
   color: white;
-  padding-top: 8%;
+  /* padding-top: 8%; */
 }
 
 .parent-container {
@@ -49,9 +52,14 @@ body {
   padding-top: 4px;
 }
 
-
-
 .split-container2 {
-  width: 85%;
-  background-color: blue;
+  width: 92%;
+  background-color: #ECEEF0;
+  display: "flex";
+  padding-top: "30px"
+}
+
+.infobar-parent-container {
+  display: flex;
+  justify-content: space-evenly;
 }
